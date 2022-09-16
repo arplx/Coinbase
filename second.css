@@ -1,0 +1,245 @@
+@font-face {
+    font-family: sans-serif;
+    src: url(./font/N.ttf);
+    color: black;
+}
+.header{
+    display: flex;
+    height: 75px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(221, 220, 220);
+    border-right: 1px solid rgb(221, 220, 220);
+    padding: 28px;
+    font-family: jim;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cir-ar{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #E9EBEE;
+    padding: 8px;
+   
+}
+.content{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cont1-1{
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+    
+}
+.cont1-2{
+    
+    font-size: 45px !important;
+    font-family: sans-serif;
+    color: black;
+    margin-top: -10px;
+}
+.names{
+    width: 220px !important;
+    border-radius: 10px;
+    height: 65px;
+}
+.jkx{
+    display: flex;
+}
+.cont-2{
+    display: flex;
+    gap: 25px;
+}
+.email{
+    width: 465px !important;
+    height: 65px;
+}
+.form-check-label{
+    width: 465px;
+}
+.but{
+    width: 465px;
+    height: 60px;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.form-check-input{
+    width: 20px !important;
+    height: 20px;
+}
+.cont2-1{
+    font-family: sans-serif;
+    font-size: 50px;
+    width: 340px;
+    font-weight: 500;
+}
+.cont2-2{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: grey;
+    width: 300px;
+}
+.cont2 div img{
+    height: 300px;
+}
+@media(max-width:505px){
+    .content{
+        margin-top: 30px;
+    }
+    .cont2{
+        display: none;
+    }
+    .cont1-2{
+        font-size: 38px !important;
+        font-family: sans-serif;
+        
+    }
+    .cont1-1{
+        justify-content: space-around;
+        width: 80%;
+        
+    }
+    .cont-2{
+        display: block;
+        margin-left: 10px;
+        width: 60%;
+    }
+    .names{
+        width: 380px !important;
+    }
+    .email{
+        width: 380px !important;
+    }
+    /* .mail{
+        margin-left: 0px;
+    } */
+    div .form-group.mail{
+        width: 60%;
+    }
+    label .word{
+       font-size: 4px !important;
+    }
+    .but{
+        width: 80%;
+        
+    }
+    .cont1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cont-4{
+        font-size: 15px;
+        max-width: 150px;
+    }
+    .form-check-inline{
+        width: 380px;
+        margin-left: 0px;
+    }
+    .cir-ar{
+        display: none;
+    }
+    .sigg{
+        width: 80%;
+    }
+    #sigg{
+        width: 80%;
+        margin-left: 12%;
+    }
+    .xdiv{
+        width: 70%;
+        margin-left: 12%;
+    }
+    div.cont1{
+        width: 90%;
+    }
+    
+}
+@media(max-width:419px){
+    .content{
+        margin-top: 40px;
+    }
+    .cont2{
+        display: none;
+    }
+    .cont1-2{
+        font-size: 25px !important;
+        font-family: sans-serif;
+        
+    }
+    .cont1-1{
+        justify-content: space-around;
+        width: 80%;
+        
+    }
+    .cont-2{
+        display: block;
+        margin-left: 10px;
+        width: 60%;
+    }
+    .names{
+        width: 300px !important;
+    }
+    .email{
+        width: 300px !important;
+    }
+    .mail{
+        margin-left: 0px;
+    }
+    div .form-group.mail{
+        width: 60%;
+    }
+    label .word{
+       font-size: 4px !important;
+    }
+    .but{
+        width: 80%;
+        margin-left: 0%;
+    }
+    .cont1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cont-4{
+        font-size: 12px;
+        max-width: 100px;
+    }
+    .form-check-inline{
+        width: 280px;
+        margin-left: 0px;
+    }
+    .cir-ar{
+        display: none;
+    }
+    .sigg{
+        width: 70%;
+    }
+    #sigg{
+        width: 70%;
+    }
+    .xdiv{
+        width: 70%;
+    }
+    div.cont1{
+        width: 90%;
+    }
+    
+}
+@media(max-width:290px){
+    .names{
+        width: 200px !important;
+    }
+    .email{
+        width: 200px !important;
+    }
+}

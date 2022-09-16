@@ -1,0 +1,60 @@
+body{
+    background-color:  #0052FF !important;
+}
+
+.ver{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 30px;
+    margin-top: 40px;
+    animation-name: yin;
+    animation-duration: 6sec;
+    animation-iteration-count: infinite;
+    transform: translate();
+}
+
+.ima{
+    width: 200px;
+    height: 200px;
+    background-image: url(./image/checkmark-icon-2797531_1280.png);
+    background-size: cover;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    animation-duration: 1s; 
+    animation-fill-mode: both; 
+    animation-name: bounce; 
+    animation-iteration-count: infinite;
+}
+.coin{
+    color: white;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 530;
+    margin-top: 70px;
+   
+}
+
+
+.sgn{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 40px;
+}
+.but{
+    width: 90%;
+    height: 70px;
+    animation-duration: 1s; 
+    animation-fill-mode: both; 
+    animation-name: bounce; 
+    animation-iteration-count: infinite;
+}
+ 
+ @keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+ }
