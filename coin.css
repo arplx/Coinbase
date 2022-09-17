@@ -462,11 +462,32 @@ button.fa-bars{
     .phne img{
         width: 300px;
     }
+    .con5{
+        margin-left: 60px;
+    }
+    .con5 div img{
+        width: 80%;
+    }
+    .cont12-5{
+        display: block;
+    }
+    .cont12-2{
+        display: none;
+    }
+    .cont12-3{
+        display: none;
+    }
+    .cont12-4{
+        display: none;
+    }
 }
 @media(max-width:640px){
     .phne img{
         width: 250px;
         margin-top: 20px;
+    }
+    .header{
+        position: static;
     }
     .cont12-4{
         display: none;
@@ -483,18 +504,23 @@ button.fa-bars{
     .con5{
         width: 600px;
     }
-}
-@media(max-width:580px){
     .ear-1{
         display: none;
     }
+}
+@media(max-width:580px){
     .phne img{
         width: 200px;
         margin-top: 30px;
     }
     .cont8{
-        margin-left: 35px;
+        display: none;
     }
+    td.hides{
+        display: none;
+    }
+   
+    
     
 }
 @media(max-width:500px){
@@ -502,46 +528,52 @@ button.fa-bars{
         display: none;
     }
     .jump{
-        width: 100%;
+        width: 90%;
         justify-content: center;
         display: flex;
         flex-direction: column;
-        font-size: 25px;
+        font-size: 20px;
     }
     .cont1{
-        width: 100%;
+        width: 90%;
         justify-content: space-around;
         align-items: center;
-        margin-left: 80px;
+        margin-left: 40px;
     }
-    .jumm{
+
+    div h1.jumm{
         
-        font-size: 120px;
+        font-size: 30px !important;
     }
     #usr{
         width: 300px;
     }
     .cont4{
-        margin-left: 70px;
+        margin-left: 10px;
     }
     .cont8{
         font-size: 10px;
     }
-    .cont12-3{
+    /* .cont12-3{
         display: none;
-    }
+    } */
     .con5 div img{
-        width: 400px;
-        margin-left: 60px;
+        width: 90%;
+        margin-left: 0px;
     }
     .cont11{
-        margin-left: 30px;
+        margin-left: 10px;
+        width: 95%;
     }
     .cont4 h1{
         font-size: 20px !important;
     }
     .cont4{
-        margin-top: -20px;
+        margin-top: 20px;
+    }
+    .cont4 div{
+        font-size: 15px;
+        width: 80%;
     }
     .bol{
         font-size: 25px;
@@ -557,16 +589,11 @@ button.fa-bars{
     .cont9 h1{
         font-size: 20px;
     }
-    .header{
-        margin-left: 20px;
-        /* width: max-content; */
-    }
-    td.hides{
-        display: none;
-    }
+    
+    
     .cont9-1{
         font-size: 14px !important;
-        margin-left: 40px;
+        margin-left: 0px;
     }
     .piv{
         display: none;
@@ -578,56 +605,93 @@ button.fa-bars{
         margin-top: 20px;
     }
 }
-@media(max-width:400px){
-    .header{
-        /* margin-left: -5px; */
-        width: 450px;
-        justify-content: space-between;
-        display: flex;
+@media(max-width:435px){
+    .hide0{
+       display: none;
     }
-    .cont12-5{
-        display: block;
+    .cont4 h1{
+        font-size: 17px !important;
     }
-    .cont12-2{
-        display: none;
-    }
-}
-@media(max-width:362px){
-    .jump{
-        font-size: 17px;
-    }
-    div h1.jumm{
-        font-size: 35px !important;
-    }
-    .cont3{
-        margin-left: 40px;
+    
+    .cont4 div{
+        font-size: 15px;
+        width: 80%;
     }
     .cont5{
-        margin-left: 30px;
+        width: 95%;
+        margin-left: 10px;
     }
-    .cont6 div{
-        margin-left: 40px;
+    .cont6{
+        margin-left: 0px;
     }
-    .cont9{
-        display: none;
-    
-    }
-    .cont11{
-        margin-left: 60px;
-    }
-    .cont4{
-        display: none;
-    }
-    .cont12{
-        margin-left: 60px;
+    .con5 div img{
+        width: 80%;
+        
     }
     .con5{
-        margin-left: 50px;
+        width: 90%;
+        
     }
-    .mana{
-        margin-left: 40px;
+    .jim img{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .cont9{
+        /* display: none; */
     }
 }
 
+@media(max-width:396px){
+    .container{
+        display: none;
+    }
+    .cont1{
+        /* margin-left: 10px; */
+    }
+    .graph{
+        width: 60%;
+        /* margin-left: -20px; */
+    }
+    .cont3{
+        width: 30%;
+        margin-left: -40px;
+    }
+    .cont1{
+        margin-left: 18px;
+        width: 90%;
+    }
 
-
+}
+@media(max-width:386px){
+    .logo img{
+        width: 100px;
+    }
+    #usr{
+        width: 160px;
+        height: 50px;
+    }
+    .butty{
+        height: 50px;
+    }
+    .cont11{
+        margin-left: 10px;
+        width: 95%;
+        height: 300px;
+    }
+    .graph{
+        width: 90%;
+       margin-left: 10px;
+    }
+    .cont3{
+        width: 90%;
+        margin-left: -40px;
+        
+    }
+    .gra{
+        margin-left: 15px;
+        min-width: 360px;
+    }
+    .jump{
+        font-size: 13px;
+    }
+}
